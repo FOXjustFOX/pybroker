@@ -118,6 +118,13 @@ snippets:
 - [Rotational Trading](https://www.pybroker.com/en/latest/notebooks/10.%20Rotational%20Trading.html)
 - [FAQs](https://www.pybroker.com/en/latest/notebooks/FAQs.html)
 
+## Autonomous Trading Setup
+
+Want to set up PyBroker for autonomous trading with limited capital? Check out our comprehensive guide:
+
+- **[Autonomous Trading Setup Guide](AUTONOMOUS_TRADING_SETUP.md)** - Complete guide for setting up automated trading with risk management, deployment options, and best practices
+- **[Autonomous Trading Example](examples/autonomous_trading/)** - Ready-to-use example code with configuration, strategy implementation, and continuous execution
+
 ## Online Documentation
 
 [The full reference documentation is hosted at **www.pybroker.com**.](https://www.pybroker.com)

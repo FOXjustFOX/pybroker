@@ -1,0 +1,38 @@
+# Environment and credentials
+.env
+
+# Cache directories
+data_cache/
+indicator_cache/
+model_cache/
+
+# Log files
+*.log
+trading.log
+performance.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+test_*.py
+*_test.py
