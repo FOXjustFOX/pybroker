@@ -9,8 +9,14 @@ This directory contains a complete example of setting up PyBroker for autonomous
 - **run_autonomous.py** - Autonomous trading runner with scheduling
 - **risk_manager.py** - Risk management and position sizing utilities
 - **.env.example** - Template for environment variables
+- **setup.sh / setup.bat** - Automated setup scripts
+- **GETTING_STARTED.md** - Step-by-step beginner guide
 
 ## Quick Start
+
+**New to trading bots?** Start with [GETTING_STARTED.md](GETTING_STARTED.md) for a beginner-friendly walkthrough.
+
+**Experienced user?** Follow the steps below:
 
 ### 1. Install Dependencies
 
