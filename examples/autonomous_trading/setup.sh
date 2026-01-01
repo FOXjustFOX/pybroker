@@ -40,7 +40,7 @@ echo ""
 
 # Activate virtual environment
 echo "Activating virtual environment..."
-source venv/bin/activate || . venv/Scripts/activate
+source venv/bin/activate
 echo "✓ Virtual environment activated"
 echo ""
 

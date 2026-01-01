@@ -66,13 +66,12 @@ echo.
 
 REM Test installation
 echo Testing installation...
-python -c "import pybroker; print('PyBroker installed successfully')" 2>nul
+python -c "import pybroker; print('PyBroker version:', pybroker.__version__)" 2>nul
 if errorlevel 1 (
     echo ERROR: PyBroker installation failed
     pause
     exit /b 1
 )
-echo PyBroker installed successfully
 echo.
 
 REM Summary

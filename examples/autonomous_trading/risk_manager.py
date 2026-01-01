@@ -4,7 +4,7 @@ Risk Management Module
 Implements position sizing and risk controls for trading strategies.
 """
 
-from typing import Dict, List
+from typing import Dict, List, Tuple
 from datetime import datetime, timedelta
 
 
@@ -102,7 +102,7 @@ class RiskManager:
     
     def should_enter_trade(self,
                           symbol: str,
-                          current_positions: int) -> tuple[bool, str]:
+                          current_positions: int) -> Tuple[bool, str]:
         """
         Check if we can enter a new trade.
         
