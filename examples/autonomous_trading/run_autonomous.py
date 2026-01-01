@@ -206,6 +206,8 @@ def get_next_market_open() -> datetime:
     Returns:
         Datetime of next market open
     """
+    from datetime import timedelta
+    
     now = datetime.now(MARKET_TIMEZONE)
     
     # If it's before market open today, return today's open
@@ -232,7 +234,7 @@ def get_next_market_open() -> datetime:
         second=0,
         microsecond=0
     )
-    next_open = next_open.replace(day=now.day + days_ahead)
+    next_open = next_open + timedelta(days=days_ahead)
     
     return next_open
 

@@ -45,6 +45,9 @@ logger = logging.getLogger(__name__)
 pybroker.enable_data_source_cache('data_cache')
 pybroker.enable_indicator_cache('indicator_cache')
 
+# Trading constants
+MIN_TRADE_AMOUNT = 10.0  # Minimum trade amount in dollars
+
 
 def calculate_position_size(ctx: ExecContext, price: float) -> int:
     """
@@ -69,7 +72,7 @@ def calculate_position_size(ctx: ExecContext, price: float) -> int:
     shares = min(max_shares_by_cash, max_shares_by_limit)
     
     # Ensure at least some shares if we have enough cash
-    if shares > 0 and (shares * price) < 10:  # Don't trade less than $10
+    if shares > 0 and (shares * price) < MIN_TRADE_AMOUNT:
         return 0
     
     return shares
@@ -257,8 +260,8 @@ def main():
         else:
             logger.info("1. Strategy needs optimization")
             logger.info("2. Try adjusting parameters in config.py:")
-            logger.info("   - INDICATOR_PERIOD (currently {})".format(INDICATOR_PERIOD))
-            logger.info("   - STOP_LOSS_PERCENT (currently {}%)".format(STOP_LOSS_PERCENT))
+            logger.info(f"   - INDICATOR_PERIOD (currently {INDICATOR_PERIOD})")
+            logger.info(f"   - STOP_LOSS_PERCENT (currently {STOP_LOSS_PERCENT}%)")
             logger.info("   - Different SYMBOLS")
             logger.info("3. Re-run backtest after changes")
         
