@@ -11,10 +11,13 @@ This directory contains a complete example of setting up PyBroker for autonomous
 - **.env.example** - Template for environment variables
 - **setup.sh / setup.bat** - Automated setup scripts
 - **GETTING_STARTED.md** - Step-by-step beginner guide
+- **GOING_LIVE.md** - Complete guide for transitioning to real money trading
 
 ## Quick Start
 
 **New to trading bots?** Start with [GETTING_STARTED.md](GETTING_STARTED.md) for a beginner-friendly walkthrough.
+
+**Ready for live trading?** See [GOING_LIVE.md](GOING_LIVE.md) for step-by-step instructions on transitioning from paper to real money trading.
 
 **Experienced user?** Follow the steps below:
 

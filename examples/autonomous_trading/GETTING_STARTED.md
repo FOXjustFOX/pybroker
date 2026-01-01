@@ -245,6 +245,17 @@ Before going live with real money:
 3. Read the full documentation in AUTONOMOUS_TRADING_SETUP.md
 4. Learn about different trading strategies
 
+### Ready for Live Trading?
+
+After 30+ days of successful paper trading, see **[GOING_LIVE.md](GOING_LIVE.md)** for a complete step-by-step guide on:
+- How to transition from paper to live trading
+- Getting live API keys from Alpaca
+- Funding your account
+- Setting up conservative risk parameters
+- What to expect (performance differences)
+- Monitoring and emergency procedures
+- Tax and legal considerations
+
 ### For Advanced Users
 
 1. Implement more sophisticated strategies

@@ -13,6 +13,7 @@ This guide provides everything you need to set up PyBroker for autonomous tradin
 8. [Monitoring and Maintenance](#monitoring-and-maintenance)
 9. [Best Practices](#best-practices)
 10. [Troubleshooting](#troubleshooting)
+11. [Going Live with Real Money](#going-live-with-real-money)
 
 ## Prerequisites
 
@@ -838,6 +839,32 @@ Before going live with real money:
 - Comply with local regulations
 
 The authors and contributors are not responsible for any trading losses.
+
+---
+
+## Going Live with Real Money
+
+Ready to transition from paper trading to live trading with real money? 
+
+**See the comprehensive guide**: [examples/autonomous_trading/GOING_LIVE.md](examples/autonomous_trading/GOING_LIVE.md)
+
+This guide covers:
+- ✅ Prerequisites and readiness checklist
+- ✅ Step-by-step transition process
+- ✅ How to get live trading API keys
+- ✅ Funding your account
+- ✅ Conservative configuration for going live
+- ✅ What to expect (performance differences)
+- ✅ Monitoring and emergency procedures
+- ✅ Tax and legal considerations
+- ✅ Common issues and solutions
+- ✅ Mental preparation and psychology
+
+**Important**: Only proceed to live trading after:
+- 30+ days of successful paper trading
+- Consistent profitability in backtests
+- Complete understanding of all risk parameters
+- Starting with minimal capital ($500-$1,000)
 
 ---
 
