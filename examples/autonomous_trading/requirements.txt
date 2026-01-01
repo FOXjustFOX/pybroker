@@ -1,0 +1,19 @@
+# Requirements for Autonomous Trading Example
+
+# Core PyBroker
+lib-pybroker>=1.1.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Scheduling for autonomous operation
+schedule>=1.2.0
+
+# Timezone handling
+pytz>=2023.3
+
+# Optional: For better market calendar handling
+# pandas-market-calendars>=4.3.0
+
+# Optional: For email alerts
+# secure-smtplib>=0.1.1
